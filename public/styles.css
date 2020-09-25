@@ -1,6 +1,7 @@
 .Flags {
     border-radius: 50px;
     width: 200px;
+    align-items: center;
 }
 .list{
     display: flex;
@@ -8,4 +9,17 @@
     justify-content: space-between;
     margin: 4rem auto;
     max-width: 90%;
+}
+h1 {
+display: block;
+background-color: darkgrey;
+text-align: center;
+padding-top: 1rem;
+padding-bottom: 1rem;
+width: 100%;
+}
+
+input {
+width: 100%;
+text-align: center;
 }
